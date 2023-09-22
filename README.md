@@ -35,7 +35,7 @@ This uncertainty adds complexity to the agent's navigation.
 The episode terminates when the agent reaches the goal state (G) or falls into a hole (H).
 
 ### Graphical Representation
-![img](1.png)
+![img](graph.png)
 
 ## VALUE ITERATION ALGORITHM
  - Value iteration is a method of computing an optimal MDP policy and its value.
@@ -99,7 +99,7 @@ print_state_value_function(V_best_v, P, prec=4)
 ```
 
 ## OUTPUT:
-![img](2.png)
+![img](output.png)
 
 ## RESULT:
 Thus, a Python program is developed to find the optimal policy for the given MDP using the value iteration algorithm.
